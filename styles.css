@@ -49,6 +49,30 @@ nav a {
   margin: 0 350px;
 }
 
+.projects_wrapper {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.project img {
+  width: 420px;
+  height: 300px;
+}
+
+.project p {
+  padding: 0 30px;
+  text-align: justify;
+}
+
 .contact {
   background-color: lightblue;
   display: flex;
